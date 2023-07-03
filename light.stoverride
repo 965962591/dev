@@ -12,6 +12,6 @@ http:
       timeout: 10
       
 script-providers:
-  camscanner:
+  moolight:
     url: https://raw.githubusercontent.com/965962591/dev/main/moolight.js
     interval: 86400
