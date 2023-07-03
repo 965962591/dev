@@ -1,7 +1,3 @@
 var obj = JSON.parse($request.body);
-obj = {
-    "data":{
-        "model": "gpt-4"
-    }
-}
+obj.data.model = "gpt4";
 $done({body:JSON.stringify(obj)})
