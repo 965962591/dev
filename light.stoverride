@@ -13,5 +13,5 @@ http:
       
 script-providers:
   camscanner:
-    url: 
+    url: https://raw.githubusercontent.com/965962591/dev/main/moolight.js
     interval: 86400
