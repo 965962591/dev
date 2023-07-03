@@ -1,0 +1,17 @@
+name: light
+desc: light for 4
+
+http:
+  mitm:
+    - "app.moolight.live"
+  script:
+    - match: ^https:\/\/app\.moolight\.live\/v2\/chat\/completions\/stream
+      name: moolight
+      type: request
+      require-body: true
+      timeout: 10
+      
+script-providers:
+  camscanner:
+    url: 
+    interval: 86400
