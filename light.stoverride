@@ -1,5 +1,5 @@
-name: light
-desc: light for 4
+name: moolight
+desc: moolight解除限制
 
 http:
   mitm:
