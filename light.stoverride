@@ -9,7 +9,7 @@ http:
       name: moolight
       type: request
       require-body: true
-      timeout: 10
+      timeout: 100
       
 script-providers:
   moolight:
